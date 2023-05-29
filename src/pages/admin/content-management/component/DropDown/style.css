@@ -1,0 +1,47 @@
+.ant-dropdown-menu {
+  padding: 0;
+  background-color: #fff !important;
+}
+
+.ant-btn.pt-1 {
+  padding-top: 0.25rem !important; /* 4px */
+}
+
+.pt-1 {
+  padding-top: 0.25rem !important; /* 4px */
+}
+
+.py-1 {
+  padding-top: 0.25rem !important; /* 4px */
+  padding-bottom: 0.25rem !important; /* 4px */
+}
+
+.ml-3	{
+  margin-left: 0.75rem; /* 12px */
+}
+
+.hover\:\!text-main-button-color:hover {
+  color: var(--main-button-color) !important;
+}
+.hover\:\!border-main-button-color:hover {
+  border-color: var(--main-button-color) !important;
+}
+
+.\!text-white.hover\:\!border-main-button-color:hover {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  border-radius: 12px !important;
+}
+
+.ant-select-item.ant-select-item-option {
+  display: flex;
+  align-items: center;
+}
+
+.ant-select-item.ant-select-item-option svg {
+  max-width: 13.33px;
+  margin-right: 11.33px;
+}

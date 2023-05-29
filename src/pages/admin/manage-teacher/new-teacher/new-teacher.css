@@ -1,0 +1,12 @@
+@media (max-width: 475px) {
+    .display-center{
+        flex-wrap: unset !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+}
+@media (min-width: 1280px) {
+    .cus-width{
+        width: 66.7% !important;
+    }
+}

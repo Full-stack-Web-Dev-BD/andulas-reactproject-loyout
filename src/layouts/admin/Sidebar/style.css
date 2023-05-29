@@ -1,0 +1,132 @@
+.layout-sidebar > .ant-layout-sider-children {
+  @apply !h-fit min-h-full;
+}
+
+.layout-sidebar > .ant-layout-sider-children > .ant-menu {
+  @apply min-h-[100vh];
+}
+
+.layout-sidebar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.layout-sidebar:hover::-webkit-scrollbar {
+  @apply block;
+}
+
+.menu-sidebar {
+  @apply !bg-main-left-menu-bg;
+}
+
+.menu-sidebar > li > .ant-menu-title-content,
+.menu-sidebar > li.ant-menu-submenu,
+.menu-sidebar > li.ant-menu-submenu > ul > li > .ant-menu-title-content,
+.menu-sidebar > li.ant-menu-submenu .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.menu-sidebar > li.ant-menu-submenu > ul > li > ul > li > .ant-menu-title-content {
+  @apply text-main-left-menu-color !font-fontFamily !font-semibold;
+}
+
+.menu-sidebar > li > svg > path {
+  @apply fill-main-left-menu-color;
+}
+
+.menu-sidebar > li.ant-menu-submenu-open {
+  @apply bg-main-left-menu-extend-bg rounded-t-xl rounded-b-xl;
+}
+
+.menu-sidebar > li.ant-menu-submenu > .ant-menu-submenu-title > svg > path {
+  @apply fill-main-left-menu-color;
+}
+
+.menu-sidebar > li.ant-menu-submenu .ant-menu-submenu-title:hover .ant-menu-submenu-arrow,
+.menu-sidebar > li.ant-menu-submenu .ant-menu-submenu-title:hover .ant-menu-title-content,
+.menu-sidebar
+  .ant-menu-submenu
+  .ant-menu
+  .ant-menu-submenu
+  .ant-menu
+  .ant-menu-item:hover
+  .ant-menu-title-content {
+  @apply text-main-left-menu-highlight-color;
+}
+
+.menu-sidebar > li.ant-menu-submenu-open:hover,
+.menu-sidebar > li.ant-menu-submenu-open {
+  @apply !bg-main-left-menu-extend-bg rounded-t-xl rounded-b-xl;
+}
+
+.menu-sidebar > li.ant-menu-submenu > .ant-menu-submenu-title:hover path {
+  @apply !fill-main-left-menu-highlight-color;
+}
+
+.menu-sidebar > li.ant-menu-submenu-open > ul {
+  @apply bg-main-left-menu-extend-bg rounded-b-xl;
+}
+
+.menu-sidebar > li.ant-menu-submenu > ul > li > .ant-menu-title-content {
+  @apply text-xs;
+}
+
+.menu-sidebar > li.ant-menu-submenu-open > ul > li > .ant-menu-title-content:hover {
+  @apply text-main-left-menu-highlight-color;
+}
+
+.menu-sidebar
+  > li.ant-menu-submenu-selected
+  > ul
+  > li.ant-menu-item-selected
+  > .ant-menu-title-content {
+  @apply text-main-left-menu-highlight-color;
+}
+
+.menu-sidebar > li.ant-menu-item-selected > .ant-menu-title-content,
+.menu-sidebar > li.ant-menu-item-active > .ant-menu-title-content,
+.menu-sidebar
+  > .ant-menu-submenu-selected
+  .ant-menu
+  .ant-menu-submenu-selected
+  .ant-menu
+  .ant-menu-item-selected
+  .ant-menu-title-content {
+  @apply text-main-left-menu-highlight-color;
+}
+
+.menu-sidebar > li.ant-menu-item-selected > svg > path,
+.menu-sidebar > li.ant-menu-item-active > svg > path {
+  @apply !fill-main-left-menu-highlight-color;
+}
+
+.menu-sidebar > .ant-menu-submenu-selected .ant-menu-submenu-title .ant-menu-title-content {
+  @apply text-main-left-menu-color;
+}
+
+.menu-sidebar > li.ant-menu-item-selected::after,
+.menu-sidebar > li.ant-menu-item-active::after,
+.menu-sidebar li.ant-menu-item-selected::after {
+  @apply !border-main-left-menu-highlight-stripe-color;
+}
+
+.menu-sidebar li.ant-menu-submenu-open .ant-menu-sub {
+  @apply bg-main-left-menu-extend-bg rounded-b-xl;
+}
+
+.menu-sidebar .ant-menu-title-content {
+  @apply !font-fontFamily !text-xs !font-semibold;
+}
+
+.menu-sidebar .ant-menu-submenu .ant-menu .ant-menu-item {
+  display: flex;
+}
+
+.menu-sidebar .ant-menu-item .ant-menu-title-content,
+.menu-sidebar .ant-menu-submenu .ant-menu-submenu-title .ant-menu-title-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: pre-line;
+  align-items: center;
+}
+
+.logout-menu-item {
+  @apply hover:!text-main-left-menu-highlight-color;
+}

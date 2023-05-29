@@ -1,0 +1,15 @@
+.item-half-width {
+  width: calc(50% - 0.375rem);
+}
+
+.form-item-half-width {
+  width: calc(50% - 0.4rem);
+}
+@media (max-width: 575px) {
+  .form-item-half-width {
+    width: 100%;
+  }
+}
+.my-profile-tab .ant-tabs-nav {
+  @apply !mb-0;
+}

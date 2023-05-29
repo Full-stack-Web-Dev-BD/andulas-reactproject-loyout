@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .custom-my-course {
+        display: flex!important;
+        flex-wrap: wrap!important;
+    }
+    .custom-my-course-item {
+        flex: 0 0 auto!important;
+    }
+    .w-70{
+        width: 70% !important;
+    }
+}

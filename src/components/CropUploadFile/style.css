@@ -1,0 +1,21 @@
+@media (min-width: 1024px) {
+    .custom-avt{
+        width: 242px !important;
+        height: 294px !important;
+    }
+}
+@media (max-width:1024px) {
+    .custom-avt{
+        width: 150px !important;
+        height: 192px !important;
+    }
+}
+@media (max-width: 987px) {
+    .custom-flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

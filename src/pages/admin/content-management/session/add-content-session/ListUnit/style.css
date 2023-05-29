@@ -1,0 +1,12 @@
+.cus-input-wsp {
+    min-width: 200px;
+}
+@media (min-width: 940px) {
+    .cus-table__list-unit::-webkit-scrollbar {
+        display: none;
+    }
+    .cus-table__list-unit {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+}

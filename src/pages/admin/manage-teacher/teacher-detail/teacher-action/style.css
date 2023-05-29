@@ -1,0 +1,35 @@
+.tab-action-page .ant-tabs-nav-list {
+  @apply w-full;
+}
+
+.tab-action-page .ant-tabs-nav {
+  @apply mb-6;
+}
+
+.tab-action-page .ant-tabs-nav::before {
+  @apply !border-b-0;
+}
+
+.tab-action-page .ant-tabs-tab {
+  @apply !px-4 rounded-xl border border-solid border-gray-300 ml-3 flex-1 justify-center font-semibold font-fontFamily;
+}
+
+.tab-action-page .ant-tabs-tab:first-child {
+  @apply !ml-0;
+}
+
+.tab-action-page .ant-tabs-tab-active {
+  @apply bg-transparent border-main-button-color;
+}
+
+.tab-action-page .ant-tabs-tab:not(.ant-tabs-tab-active):hover .ant-tabs-tab-btn, .tab-action-page .ant-tabs-tab-btn:focus  {
+  @apply text-main-button-color;
+}
+
+.tab-action-page .ant-tabs-ink-bar {
+  @apply bg-transparent;
+}
+
+.tab-action-page .ant-tabs-tab-active .ant-tabs-tab-btn {
+  @apply !text-main-button-color;
+}

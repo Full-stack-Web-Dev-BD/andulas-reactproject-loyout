@@ -1,0 +1,5 @@
+@media (max-width: 1200px) {
+    .cus-announcement-sp {
+        overflow-x: scroll;
+    }
+}

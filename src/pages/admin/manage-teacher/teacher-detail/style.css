@@ -1,0 +1,11 @@
+@media (max-width:500px) {
+    .cus_font{
+        font-size: 18px;
+    }
+    .disable-flex{
+        display: block !important;
+    }
+    .padding-bottom-15px{
+        padding-bottom: 15px;
+    }
+}

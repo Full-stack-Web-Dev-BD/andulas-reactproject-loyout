@@ -1,0 +1,13 @@
+.ant-switch {
+  height: 24px;
+  min-width: 48px;
+}
+
+.ant-switch-checked {
+  background: #ed7635;
+}
+
+.ant-switch-handle {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,3 @@
+.card-item-update .ant-collapse-header-text {
+    width: calc(100% - 20px);
+}

@@ -1,0 +1,5 @@
+@media (max-width: 1200px) {
+    .custom-link-acount-item {
+        flex: 1 1 300px!important;
+    }
+}

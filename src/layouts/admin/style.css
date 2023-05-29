@@ -1,0 +1,15 @@
+.cus__width-padding {
+  padding: 6rem 7rem;
+  margin-right: 16px;
+  margin-left: 16px;
+  /* height: auto!important; */
+}
+@media (max-width: 987px) {
+  .cus__width-padding {
+    padding: 12px 12px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 0px !important;
+    overflow-y: visible !important;
+  }
+}

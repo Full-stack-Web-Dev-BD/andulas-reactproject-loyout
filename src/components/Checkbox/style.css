@@ -1,0 +1,17 @@
+.custom-checkbox .ant-checkbox-inner {
+  @apply w-[20px] h-[20px];
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner::after {
+  @apply !bg-main-button-color !rounded-[4px] border-none left-[50%] top-[50%] w-[12px] h-[12px] translate-x-[-50%] translate-y-[-50%];
+}
+
+.custom-checkbox .ant-checkbox-inner,
+.custom-checkbox .ant-checkbox-inner:hover,
+.custom-checkbox .ant-checkbox-checked::after {
+  @apply !rounded-[6px];
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+    @apply !bg-white;
+}

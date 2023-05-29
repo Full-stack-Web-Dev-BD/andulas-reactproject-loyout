@@ -1,0 +1,65 @@
+.custom-select {
+  @apply w-full max-w-full;
+}
+
+.custom-select > div {
+  @apply border-[#d9d9d9] min-h-[3rem] w-full rounded-2xl text-[#32302D] shadow-none text-xs xl:text-sm;
+}
+
+.custom-select > div:hover {
+  @apply border-main-button-color;
+}
+
+.field-error > div {
+  @apply border-[#ff4d4f];
+}
+
+.custom-select > div:nth-child(1) {
+    @apply !z-[10];
+}
+
+.custom-select > div.css-26l3qy-menu {
+  @apply !z-[100];
+}
+
+.custom-select .css-9gakcf-option {
+  @apply !bg-[#e6f7ff] text-black !font-semibold;
+}
+
+.custom-select .css-26l3qy-menu {
+  @apply bg-white rounded-xl;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+}
+
+.custom-select .css-1n7v3ny-option {
+  @apply !bg-[#f8f8f8] rounded-2xl;
+}
+
+.custom-select .css-6j8wv5-Input {
+  @apply h-full;
+}
+
+.react-select__indicators { @apply hidden }
+
+.custom-select .dropdown-icon svg {
+  @apply w-[12px] h-[12px] mr-[0.6rem];
+}
+
+.custom-select .dropdown-icon svg path {
+  @apply fill-[#bfbfbf];
+}
+
+.custom-select-disable > div {
+  @apply !text-[#00000040] !bg-transparent;
+}
+
+.custom-select-disable-bg-white > div {
+  @apply !bg-white;
+}
+
+@media (min-width: 1024px ) {
+  .custom-select > div {
+    font-size: 0.875rem !important; 
+    line-height: 1.25rem !important;
+  }
+}

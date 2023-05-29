@@ -1,0 +1,30 @@
+@media (max-width: 1023px) {
+  .min-button {
+    width: fit-content !important;
+  }
+  .cus-button {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .min-button {
+    min-width: fit-content !important;
+  }
+  .cus-button {
+    min-width: 188px;
+  }
+}
+@media (max-width: 576px) {
+  .min-button {
+    width: fit-content !important;
+  }
+  .cus-button {
+    width: 100%;
+  }
+}
+
+.cus-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .custom-student-info {
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
+@media (max-width: 567px) {
+    .cus-form-student-if {
+        width: 100%!important;
+    }  
+}

@@ -1,0 +1,7 @@
+/* fix custom select not showing red border */
+.ant-form-item-has-error .ant-form-item-control-input-content .custom-select.border-red-600 > div,
+.ant-form-item-has-error .ant-form-item-control-input-content .ck-editor .ck.ck-toolbar,
+.ant-form-item-has-error .ant-form-item-control-input-content .ck-editor .ck.ck-content {
+    background: #fff;
+    border-color: #ff4d4f !important;
+}

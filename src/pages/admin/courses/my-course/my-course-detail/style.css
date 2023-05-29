@@ -1,0 +1,59 @@
+#course-detail-student:has(.course-detail-announcement:hover)
+    .course-detail-announcement-title {
+        color: #ED7635 !important;
+    }
+
+    #course-detail-student:has(.course-detail-message:hover)
+    .course-detail-message-title {
+        color: #ED7635 !important;
+    }
+.title-announcement{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* display: -webkit-box; */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 250px;
+    white-space: nowrap;
+}
+
+.min-height-60vh {
+    min-height: 60vh;
+}
+
+.course-preview-container h1 {
+    font-size: x-large;
+}
+
+.m-auto {
+    margin: auto !important;
+}
+
+.m-l-r-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.my-course-session .container {
+    height: unset;
+}
+
+.flex-auto {
+    flex: 1 1 auto !important;
+}
+@media (max-width: 1200px) {   
+    .custom-class-info {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: flex-start!important;
+        gap: 20px;
+    }
+    .custom-class-info img {
+        width: 100%!important;
+        max-width: 100%;
+    }
+    .cus-my-course-w-full {
+        width: 100%;
+    }
+}

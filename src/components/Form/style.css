@@ -1,0 +1,16 @@
+.form-layout-custom {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+  }
+  
+  .item-half-width {
+    width: calc(50% - 0.75rem);
+  }
+  
+  .item-half-width label {
+    color: #6e6b68;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 18px;
+  }

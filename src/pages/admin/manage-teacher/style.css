@@ -1,0 +1,15 @@
+@media (min-width:1024px) {
+    .cus-font{
+        font-size: 14px;
+    }
+}
+@media (max-width: 575px) {
+    .button-fix{
+        width: 40% !important;
+    }
+}
+@media (max-width: 987px) {
+    .button-fix{
+        width: 40% !important;
+    }
+}

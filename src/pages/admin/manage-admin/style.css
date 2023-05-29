@@ -1,0 +1,6 @@
+
+@media (max-width: 375px) {
+    .cus-minwidth{
+        min-width: 200px;
+    }
+}

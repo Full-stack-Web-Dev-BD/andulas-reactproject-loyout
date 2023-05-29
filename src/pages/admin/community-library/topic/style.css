@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+  .cus__width__topic {
+    min-width: 155px;
+  }
+}
+@media (max-width: 768px) {
+  .cus__width__topic {
+    width: calc(50% - 0.5rem) !important;
+  }
+}

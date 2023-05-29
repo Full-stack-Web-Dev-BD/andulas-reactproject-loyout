@@ -1,0 +1,178 @@
+/* react-big-calendar */
+.rbc-time-view {
+  border: 0;
+}
+.rbc-time-header {
+  display: none;
+}
+.rbc-custom-view .rbc-time-content {
+  border-top: 0;
+  overflow: hidden;
+}
+.custom-dropdown-event-detail {
+  top: 700px !important;
+}
+.rbc-time-content > * + * > * {
+  border: 0;
+}
+.rbc-timeslot-group {
+  border: 0;
+}
+.rbc-day-slot .rbc-time-slot {
+  border-top: 0;
+}
+.rbc-label {
+  padding: 0 12px 0 0;
+}
+.rbc-day-slot {
+  background-color: #f7f5f4;
+  background-image: url(../../../../assets/images/backgroundCalendar.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.rbc-day-slot .rbc-event-label {
+  padding-right: 0;
+}
+/* .rbc-time-view .rbc-time-content .rbc-time-gutter .rbc-timeslot-group:first-child .rbc-time-slot:first-child span {
+  display: none;
+}
+.rbc-time-view .rbc-time-content .rbc-time-gutter .rbc-timeslot-group:first-child .rbc-time-slot:first-child:after {
+  content: '00 AM';
+  margin-right: 12px;
+} */
+.rbc-custom-view .rbc-agenda-view .rbc-agenda-table,
+.rbc-custom-view .rbc-agenda-table .rbc-agenda-event-cell,
+.rbc-custom-view .rbc-agenda-table tbody > tr + tr {
+  border: 0 !important;
+}
+.rbc-custom-view .rbc-agenda-table thead {
+  display: none;
+}
+.rbc-custom-view .rbc-agenda-table .rbc-agenda-time-cell {
+  display: none;
+}
+.rbc-agenda-day-custom {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px !important;
+  text-align: center;
+  color: var(--main-gray);
+}
+.rbc-agenda-event-custom {
+  min-height: 24px;
+  padding-left: 24px;
+  max-width: 1040px;
+}
+.rbc-agenda-event-custom > p:first-child {
+  max-width: 700px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ant-design */
+.custom-select .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 12px;
+  height: 44px;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.custom-select .ant-select-arrow {
+  left: 11px;
+}
+
+.custom-select .ant-select-selection-placeholder,
+.custom-select .ant-select-selection-item {
+  padding-right: 0 !important;
+  padding-left: 21px !important;
+  /* margin-right: -50px; */
+  color: var(--main-black);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.custom-select .ant-select-selector:hover .ant-select-selection-placeholder,
+.custom-select .ant-select-selector:hover .ant-select-selection-item,
+.custom-select .ant-select-selector:hover + .ant-select-arrow svg path {
+  color: var(--main-button-color);
+  fill: var(--main-button-color);
+}
+
+.custom-button-color {
+  color: var(--main-black) !important;
+}
+
+/* custom modal */
+.event-detail-wrapper {
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
+  max-width: 494px;
+}
+@media (max-width: 576px) {
+  .event-detail-wrapper {
+    max-width: 320px;
+  }
+}
+
+.event-detail-wrapper h3 {
+  color: #f1a240;
+}
+
+.event-detail-wrapper button {
+  width: 50%;
+  border: 1px solid rgba(209, 205, 203, 1);
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.modal-event-modified-custom form .ant-col.ant-form-item-label > label {
+  color: var(--main-gray);
+}
+
+/* .modal-event-modified-custom .ant-modal-footer button:first-child {
+  color: var(--main-black) !important;
+} */
+
+.modal-event-modified-custom .ant-input-status-error.ant-input {
+  border-color: #ff4d4f !important;
+}
+
+.modal-event-modified-custom .ant-form > .ant-form-item.ant-form-item-has-error {
+  margin-bottom: 40px;
+}
+
+.title-date {
+  color: #000000;
+}
+
+.text-truncate-two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  -webkit-line-clamp: 2;
+  /* height: 50px; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.custom-select .ant-select-selection-placeholder,
+.custom-select .ant-select-selection-item {
+  font-size: 14px;
+}
+
+/* custom dropdown search */
+.custom-dropdown-search {
+  max-width: 448px;
+  max-height: 260px;
+  overflow-y: auto;
+}

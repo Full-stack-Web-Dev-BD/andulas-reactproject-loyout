@@ -1,0 +1,22 @@
+@media (max-width: 786px) {
+  .cus-w-150-calendar {
+    width: 50% !important;
+  }
+  .cus-w-150-calendar-today {
+    width: fit-content !important;
+  }
+  .cus-w-150-button-calendar {
+    width: 100% !important;
+  }
+  .custom-margin-right {
+    margin-right: 0px !important;
+  }
+}
+@media (min-width: 1280px) {
+  .custom-margin-right {
+    margin-right: 0px !important;
+  }
+  .cus-w-150-calendar {
+    min-width: 200px !important;
+  }
+}

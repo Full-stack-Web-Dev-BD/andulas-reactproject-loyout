@@ -1,0 +1,33 @@
+.session {
+  font-weight: 500;
+  padding: 16px;
+  background-color: transparent;
+  overflow-wrap: break-word;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.85);
+  min-width: 170px;
+  min-height: 58px;
+}
+
+.session:first-child {
+  padding-right: 8px;
+  padding-left: 8px;
+  text-align: center;
+  z-index: 3;
+  border-top-left-radius: 2px;
+  min-width: 60px;
+}
+
+.session-body-container {
+  border-radius: 1em;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.session-body-container:hover {
+  border: 1px solid var(--main-button-color);
+}
+
+.session-body-p-30 {
+  padding-bottom: 30px;
+}

@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {   
+    .cus-flex {
+        display: flex!important;
+        flex-wrap: wrap!important;
+    }
+    .cus-flex-item {
+        flex: 1 1 44px!important;
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 992px) {   
+    .cus-flex-item {
+        width: 100%!important;
+    }
+}

@@ -1,0 +1,133 @@
+.table-component table{
+    border-spacing: 0 1rem!important;
+}
+
+.table-component table{
+    @apply font-fontFamily !important;
+}
+
+.table-component td{
+    @apply border-none !important
+}
+
+.table-component .ant-table-thead tr, .table-component .ant-table-thead > tr > th{
+    @apply bg-transparent border-none !important;
+}
+
+.table-component .ant-table-thead > tr > th:not(.ant-table-selection-column)::before{
+    @apply content-none !important
+}
+
+.table-component .ant-table{
+    @apply bg-transparent !important;
+}
+
+.table-component td{
+    @apply bg-white !important;
+}
+
+.table-component td:first-child{
+    @apply rounded-tl-2xl rounded-bl-2xl;
+}
+
+.table-component td:last-child{
+    @apply rounded-tr-2xl rounded-br-2xl;
+}
+
+.table-component .ant-pagination-item-active {
+    @apply rounded-xl border-main-button-color !text-main-font-color;
+}
+
+.table-component a {
+    @apply text-main-font-color;
+}
+
+.table-component .ant-pagination-item-active a {
+    @apply text-main-button-color;
+}
+
+.table-component .ant-pagination-item:hover a{
+    @apply text-main-button-color;
+}
+
+.table-component .ant-pagination-next:hover,
+.table-component .ant-pagination-prev:hover {
+    @apply text-main-button-color; 
+}
+.table-component .ant-pagination-next button,
+.table-component .ant-pagination-prev button,
+.table-component .ant-pagination-next.ant-pagination-disabled button,
+.table-component .ant-pagination-prev.ant-pagination-disabled button{
+    @apply border-none bg-transparent !h-10 !important; 
+    
+}
+
+.table-component .ant-pagination-item {
+    @apply !h-10 px-2 py-2 rounded-xl;
+}
+
+.table-component .ant-pagination-item a {
+    @apply text-base;
+}
+
+.table-component .ant-checkbox-checked .ant-checkbox-inner::after {
+    @apply !bg-main-button-color !rounded-[4px] border-none left-[50%] top-[50%] transition-none w-[12px] h-[12px] scale-y-[0.4] translate-x-[-50%] translate-y-[-50%];
+}
+
+.table-component .ant-checkbox-inner {
+    @apply w-[20px] h-[20px];
+}
+  
+.table-component .ant-checkbox-inner,
+.table-component .ant-checkbox-inner:hover,
+.table-component .ant-checkbox-checked::after {
+    @apply !rounded-[6px];
+}
+  
+.table-component .ant-checkbox-checked .ant-checkbox-inner {
+    @apply !bg-white;
+}
+
+.table-component .ant-checkbox-inner {
+    @apply !bg-transparent;
+}
+
+.table-component .ant-checkbox-indeterminate .ant-checkbox-inner::after {
+    @apply bg-transparent transition-none;
+}
+
+.hidden-page-size .ant-pagination-options {
+    @apply !hidden
+}
+
+.table-component.pointer-row{
+    @apply cursor-pointer;
+}
+
+.table-hide-col-selection .ant-table-selection-col, .table-hide-col-selection .ant-table-selection-column {
+    display: none;
+}
+
+.table-hide-col-selection td:nth-child(2){
+    @apply rounded-tl-2xl rounded-bl-2xl;
+}
+
+.table-hide-col-selection .table-hide-col-selection-hover .ant-table-tbody > tr.ant-table-row > td:nth-child(2) {
+    @apply !border-l !border-solid !border-l-main-button-color
+}
+
+.table-hide-col-selection .table-hide-col-selection-hover .ant-table-tbody > tr.ant-table-row:hover > td:nth-child(2), .table-hide-col-selection .table-hide-col-selection-hover .ant-table-tbody > tr > td.ant-table-cell-row-hover:nth-child(2) {
+    @apply !border-l !border-solid !border-l-main-button-color
+}
+
+.table-hover-component.table-hide-col-selection .ant-table-tbody > tr.ant-table-row:hover > td:nth-child(2), .table-hover-component.table-hide-col-selection .ant-table-tbody > tr > td.ant-table-cell-row-hover:nth-child(2) {
+    @apply !border-l !border-solid !border-l-main-button-color
+}
+
+.table-hover-component.table-hide-col-selection .ant-table-tbody > tr.ant-table-row:hover > td:last-child, .table-hover-component.table-hide-col-selection .ant-table-tbody > tr > td.ant-table-cell-row-hover:last-child {
+    @apply !border-r !border-solid border-r-main-button-color
+}
+
+.ant-table-thead {
+    display: none;
+}

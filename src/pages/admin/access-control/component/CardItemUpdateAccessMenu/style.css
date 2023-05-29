@@ -1,0 +1,16 @@
+.card-item-update .ant-collapse-header-text {
+    width: calc(100% - 20px);
+}
+
+.card-item-children {
+    @apply ml-[2px];
+}
+
+.card-item-children .ant-collapse-header, .card-item-children .ant-collapse-content-box{
+  @apply !pr-0 flex items-center flex-wrap;
+}
+
+.ant-collapse-header {
+    @apply flex !items-center;
+
+}

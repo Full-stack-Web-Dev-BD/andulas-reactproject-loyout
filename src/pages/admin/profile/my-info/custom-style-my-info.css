@@ -1,0 +1,9 @@
+@media (max-width: 1200px) {   
+    .custom-my-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cus-width-my-info > div{
+        width: 100%!important;
+    }
+}

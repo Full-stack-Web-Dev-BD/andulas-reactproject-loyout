@@ -1,0 +1,104 @@
+.preview-menu > li > .ant-menu-title-content,
+.preview-menu > li.ant-menu-submenu,
+.preview-menu > li.ant-menu-submenu > ul > li > .ant-menu-title-content, .preview-menu > li.ant-menu-submenu .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  @apply text-preview-theme-left-menu-color !font-previewFontFamily !font-semibold;
+}
+
+.preview-menu > li > svg > path {
+  @apply fill-preview-theme-left-menu-color;
+}
+
+.preview-menu > li.ant-menu-submenu-open {
+  @apply bg-preview-theme-left-menu-extend-bg rounded-t-xl rounded-b-xl;
+}
+
+.preview-menu > li.ant-menu-submenu > .ant-menu-submenu-title > svg > path {
+  @apply fill-preview-theme-left-menu-color;
+}
+
+.preview-menu > li.ant-menu-submenu .ant-menu-submenu-title:hover .ant-menu-submenu-arrow , .preview-menu > li.ant-menu-submenu .ant-menu-submenu-title:hover .ant-menu-title-content {
+  @apply text-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > li.ant-menu-submenu-open:hover, .preview-menu > li.ant-menu-submenu-open {
+  @apply !bg-preview-theme-left-menu-extend-bg rounded-t-xl rounded-b-xl;
+}
+
+.preview-menu > li.ant-menu-submenu > .ant-menu-submenu-title:hover path {
+  @apply !fill-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > li.ant-menu-submenu-open > ul {
+  @apply bg-preview-theme-left-menu-extend-bg rounded-b-xl;
+}
+
+.preview-menu > li.ant-menu-submenu > ul > li > .ant-menu-title-content {
+  @apply text-xs;
+}
+
+.preview-menu > li.ant-menu-submenu-open > ul > li > .ant-menu-title-content:hover{
+  @apply text-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > li.ant-menu-submenu-selected > ul > li.ant-menu-item-selected > .ant-menu-title-content{
+  @apply text-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > li.ant-menu-item-selected > .ant-menu-title-content,
+.preview-menu > li.ant-menu-item-active > .ant-menu-title-content {
+  @apply text-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > li.ant-menu-item-selected > svg > path,
+.preview-menu > li.ant-menu-item-active > svg > path {
+  @apply !fill-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu > .ant-menu-submenu-selected .ant-menu-submenu-title .ant-menu-title-content {
+  @apply text-preview-theme-left-menu-color;
+}
+
+/* .preview-menu > .ant-menu-submenu-selected .ant-menu-submenu-title svg path {
+  @apply !fill-preview-theme-left-menu-highlight-color;
+} */
+
+.preview-menu > li.ant-menu-item-selected::after,
+.preview-menu > li.ant-menu-item-active::after {
+  @apply !border-preview-theme-left-menu-highlight-stripe-color;
+}
+
+.preview-field-item > .ant-form-item-label, .preview-field-item > .ant-form-item-label label {
+  @apply text-preview-theme-font-color font-previewFontFamily;
+}
+
+.preview-field-item > .ant-form-item-label > label {
+  @apply text-preview-theme-font-color;
+}
+
+/* .preview-menu > .ant-menu-submenu-open .ant-menu .ant-menu-item-selected .ant-menu-title-content {
+  @apply !text-preview-theme-left-menu-highlight-color;
+} */
+
+.preview-field-item .ant-input-affix-wrapper:hover, .preview-field-item .ant-select .ant-select-selector:hover {
+  @apply !border-preview-theme-button-color;
+}
+
+.preview-input:hover .ant-input, .preview-input:hover .ant-select-selector {
+  @apply !border-preview-theme-button-color;
+}
+
+.preview-arrow > svg > rect:first-child {
+  @apply fill-preview-theme-extend-narrow-bg;
+}
+
+.preview-profile-drawer ul li .ant-menu-title-content {
+  @apply !text-preview-theme-left-menu-color;
+}
+
+.preview-profile-drawer ul li:hover .ant-menu-title-content, .preview-profile-drawer ul .ant-menu-item:hover{
+  @apply !text-preview-theme-left-menu-highlight-color;
+}
+
+.preview-menu li.ant-menu-item-selected::after {
+  @apply !border-preview-theme-left-menu-highlight-stripe-color;
+}

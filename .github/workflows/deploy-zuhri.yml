@@ -1,0 +1,29 @@
+name: DEPLOY-ZUHRI
+on:
+  push:
+    branches:
+      - productionxxxxxnotused
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    container: node:16-alpine
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3.3.0
+        with:
+          node-version: 16
+      - run: echo ${{ secrets.ZUHRI_APP_ENV }} > .env
+      - run: yarn install
+      - run: CI=false DISABLE_ESLINT_PLUGIN=true yarn build --if-present
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete --exclude=.git*
+          path: build/*
+          remote_path: ${{ secrets.ZUHRI_REMOTE_PATH }}
+          remote_host: ${{ secrets.SEAGULL_HOST }}
+          remote_port: ${{ secrets.SEAGULL_SSH_PORT }}
+          remote_user: ${{ secrets.SEAGULL_SSH_USER }}
+          remote_key: ${{ secrets.SEAGULL_SSH_KEY }}

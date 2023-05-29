@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {   
+    .custom-mt-announcement {
+        margin-top: 70px!important;
+    }
+    
+}
+.custom-width-announcement{
+    width: 60% !important;
+}
+@media (min-width: 1200px) {
+    .custom-width-announcement{
+        width: 56.95%;
+    }
+}
+@media (max-width: 575px) {
+    .custom-width-announcement{
+        width: 100% !important;
+    }
+    .custom-width-announcement-buton{
+        width: 48.5% !important;
+    }
+    .custom-width-announcement-center{
+        width: auto !important;
+    }
+    .custom-width-announcement-center-dropDown{
+        width: auto !important;
+    }
+    .custom-pading{
+        padding: 4px 10px !important;
+    }
+}
+@media (min-width: 640px) {
+    .custom-width-announcement-center{
+        width: 30% !important;
+    }
+}

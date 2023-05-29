@@ -1,0 +1,41 @@
+.new_announcement_select_class .ant-select-selector {
+    height: auto !important;
+    max-height: 120px !important;
+    overflow-y: auto;
+}
+
+.title_annoucement_fix_width{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+}
+
+.announcement_select_multi .ant-select-selector {
+    height: auto !important;
+}
+
+.classes_overflow{
+    height: auto !important;
+    max-height: 100px !important;
+    overflow-y: auto;
+}
+
+.hide-search .ant-select-multiple .ant-select-selection-search {
+    display: none;
+}
+
+.range-picker-announcement {
+    border: 1px solid #d9d9d9;
+    cursor: not-allowed;
+    height: 3rem;
+    display: inline-flex;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.25);
+}
+
+.range-picker-announcement > .anticon:last-child {
+    margin-right: 10px;
+}

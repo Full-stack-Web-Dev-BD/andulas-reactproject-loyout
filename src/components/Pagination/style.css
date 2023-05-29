@@ -1,0 +1,28 @@
+.custom-pagination .ant-pagination-item-active {
+    @apply rounded-xl border-main-button-color !text-main-font-color;
+}
+
+.custom-pagination a {
+    @apply text-main-font-color;
+}
+
+.custom-pagination .ant-pagination-item-active a {
+    @apply text-main-button-color;
+}
+
+.custom-pagination .ant-pagination-item:hover a{
+    @apply text-main-button-color;
+}
+
+.custom-pagination .ant-pagination-next:hover,
+.custom-pagination .ant-pagination-prev:hover {
+    @apply text-main-button-color; 
+}
+
+.custom-pagination .ant-pagination-item {
+    @apply !h-10 px-2 py-2 !mx-1;
+}
+
+.custom-pagination .ant-pagination-item a {
+    @apply text-base;
+}

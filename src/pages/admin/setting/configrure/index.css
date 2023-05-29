@@ -1,0 +1,43 @@
+.custom-radio .ant-radio-inner {
+
+    height: 20px;
+
+    width: 20px
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner::after {
+
+    left: 95%;
+
+    top: 95%;
+
+    height: 12px;
+
+    width: 12px;
+
+    --tw-translate-x: -50%;
+
+    --tw-translate-y: -50%;
+
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) ;
+
+    border-radius: 4px !important;
+
+    border-style: none;
+
+    background-color: var(--main-button-color) !important
+}
+
+.custom-radio .ant-radio-inner, 
+.custom-radio .ant-radio-inner:hover, 
+.custom-radio .ant-radio-checked::after {
+
+    border-radius: 6px !important
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner {
+
+    --tw-bg-opacity: 1 !important;
+
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important
+}

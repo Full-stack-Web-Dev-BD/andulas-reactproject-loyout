@@ -1,0 +1,47 @@
+.cus-overflow-tb {
+    overflow-x: scroll;
+}
+
+.cus-width-min-280{
+    min-width: 280px !important;
+}
+.cus-height-min-50{
+    min-height: 50px;
+}
+@media (min-width: 1100px) {
+    .cus-overflow-tb::-webkit-scrollbar {
+        display: none!important;
+    }
+    .cus-overflow-tb {
+        -ms-overflow-style: none!important;
+        scrollbar-width: none!important;
+    }
+}
+@media (max-width: 575px) {
+    .cus-width-min-180{
+        min-width: 48.5% !important;
+    }
+    .cus-width-min-280{
+        min-width: 100% !important;
+    }
+}
+@media (min-width: 630px) {
+    .cus-width-min-180{
+        min-width: 185px !important;
+    }
+}
+@media (min-width: 630px) {
+    .cus-width-min-180{
+        min-width: 176px !important;
+    }
+}
+@media (min-width: 660px) {
+    .cus-width-min-180{
+        min-width: 185px !important;
+    }
+}
+@media (min-width:1024px) {
+    .cus-width-min-180{
+        min-width: 180px !important;
+    }
+}

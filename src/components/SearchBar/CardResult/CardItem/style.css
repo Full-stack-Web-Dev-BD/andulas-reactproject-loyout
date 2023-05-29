@@ -1,0 +1,9 @@
+.cus__width__carditems {
+  width: calc(33.33% - 0.67rem) !important;
+}
+
+@media (max-width: 767px) {
+  .cus__width__carditems {
+    width: 80% !important;
+  }
+}

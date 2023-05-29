@@ -1,0 +1,35 @@
+.card-item-module {
+  @apply !rounded-2xl border-solid border border-white bg-[#FAF9F9];
+}
+
+.card-item-module .ant-collapse-item {
+  @apply !rounded-2xl border-solid border border-white;
+}
+
+.card-item-module .ant-collapse-item .ant-collapse-header {
+  @apply font-bold text-lg font-fontFamily text-main-font-color;
+}
+
+.card-item-module .ant-collapse-item .ant-collapse-content {
+  @apply border-t-0;
+}
+
+.card-item-module .ant-collapse-item .ant-collapse-content .ant-collapse-content-box {
+  @apply pt-0;
+}
+
+.card-item-module .ant-collapse-content {
+  @apply bg-[#FAF9F9] !rounded-2xl;
+}
+
+.card-item-module .ant-collapse-header-text {
+  @apply text-sm;
+}
+
+.card-item-module .module-session .session-title-column {
+  @apply hidden;
+}
+
+.card-item-module .module-session:first-child .session-title-column {
+  @apply !block;
+}

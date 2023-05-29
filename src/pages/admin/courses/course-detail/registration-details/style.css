@@ -1,0 +1,3 @@
+.modal-create-new-detail .ant-col.ant-form-item-label {
+    @apply !pb-0;
+}

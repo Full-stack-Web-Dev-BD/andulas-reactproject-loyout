@@ -1,0 +1,19 @@
+.card-item {
+  @apply !rounded-2xl border-solid border border-white bg-white;
+}
+
+.card-item .ant-collapse-item {
+  @apply !rounded-2xl border-solid border border-white;
+}
+
+.card-item .ant-collapse-item .ant-collapse-header {
+  @apply font-bold text-lg font-fontFamily text-main-font-color;
+}
+
+.card-item .ant-collapse-item .ant-collapse-content {
+  @apply border-t-0;
+}
+
+.card-item .ant-collapse-item .ant-collapse-content .ant-collapse-content-box {
+  @apply pt-0;
+}

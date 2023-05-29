@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+  .style_input_custom_login_page {
+    font-size: 0.875rem !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .custon-gap {
+    gap: 0.5rem !important;
+  }
+
+  .filter-card {
+    padding: 1rem;
+  }
+  .cus-w-input {
+    width: 100% !important;
+  }
+}

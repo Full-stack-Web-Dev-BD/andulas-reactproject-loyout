@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .custom-student-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .custom-sp-mb {
+        margin-bottom: 20px;
+    }
+    .cus-mb-student {
+        margin-bottom: 20px;
+    }   
+    .cus-w-student {
+        max-width: 100px;
+    }
+}
+    
